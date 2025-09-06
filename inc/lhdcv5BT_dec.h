@@ -30,11 +30,12 @@ extern "C" {
 
 typedef struct  
 {
-  lhdc_ver_t version;
+  lhdcv5_ver_t version;
   uint32_t sample_rate;
   uint32_t bits_depth;
   uint32_t bit_rate;
   uint32_t lossless_enable;
+  uint32_t lossless_raw_enable;
 } tLHDCV5_DEC_CONFIG;
 
 

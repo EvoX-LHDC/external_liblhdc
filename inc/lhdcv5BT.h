@@ -18,6 +18,12 @@ int32_t lhdcv5BT_get_handle
     HANDLE_LHDCV5_BT	*handle
 );
 
+int32_t lhdcv5BT_set_lossless_raw_enable
+(
+    HANDLE_LHDCV5_BT  handle,
+    uint32_t          enabled
+);
+
 int32_t lhdcv5BT_get_bitrate
 (
     HANDLE_LHDCV5_BT	handle,
